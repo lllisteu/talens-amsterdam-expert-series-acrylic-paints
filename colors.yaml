@@ -1,0 +1,709 @@
+---
+meta:
+  uid: taesap
+  version: '0.1'
+  description:
+    en: Talens Amsterdam Expert Series acrylic paints
+  dt-created: 2014-09-11 20:39:00 GMT
+
+colors:
+
+  '105':
+    hex: 'FCFCFC'
+    description:
+      en: Titanium white
+      de: Titanweiß
+      nl: Titaanwit
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PW6 ]
+  
+  '104':
+    hex: 'FCFCFC'
+    description:
+      en: Zinc white
+      de: Zinkweiß
+      nl: Zinkwit
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PW7 ]
+  
+  '291':
+    hex: 'D0C3A7'
+    description:
+      en: Titanium buff
+      de: Titanbuff
+      nl: Titaanbuff
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PW6, PY42, PBk11 ]
+  
+  '290':
+    hex: 'B0AEA6'
+    description:
+      en: Titanium buff deep
+      de: Titanbuff Dunkel
+      nl: Titaanbuff donker
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PW6, PY42, PBk11 ]
+  
+  '292':
+    hex: 'C99D86'
+    description:
+      en: Naples yellow red light
+      de: Neapelgelb rot hell
+      nl: Napelsgeel rood licht
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PW6, PY42, PV19 ]
+  
+  '217':
+    hex: 'E4D56F'
+    description:
+      en: Permanent lemon yellow light
+      de: Permanentzitrongelb hell
+      nl: Permanentcitroengeel licht
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PY184, PW6 ]
+  
+  '207':
+    hex: 'EFF126'
+    description:
+      en: Cadmium lemon yellow
+      de: Kadmiumgelb zitron
+      nl: Cadmiumgeel citroen
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PY35 ]
+  
+  '254':
+    hex: 'EFF126'
+    description:
+      en: Permanent lemon yellow
+      de: Permanentzitronengelb
+      nl: Permanentcitroengeel
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PY184 ]
+  
+  '208':
+    hex: 'DAC223'
+    description:
+      en: Cadmium yellow light
+      de: Kadmiumgelb hell
+      nl: Cadmiumgeel licht
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PY35 ]
+  
+  '271':
+    hex: 'D9AE23'
+    description:
+      en: Cadmium yellow medium
+      de: Kadmiumgelb mittel
+      nl: Cadmiumgeel middel
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PY35 ]
+  
+  '284':
+    hex: 'F2BA27'
+    description:
+      en: Permanent yellow medium
+      de: Permanentgelb mittel
+      nl: Permanentgeel middel
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PY74 ]
+  
+  '272':
+    hex: 'F8F728'
+    description:
+      en: Transparent yellow medium
+      de: Transparentgelb mittel
+      nl: Transparantgeel middel
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PY128 ]
+  
+  '242':
+    hex: 'C79B25'
+    description:
+      en: Aureoline
+      de: Aureolin
+      nl: Aureoline
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PY74, PO73, PW6 ]
+  
+  '210':
+    hex: 'D08922'
+    description:
+      en: Cadmium yellow deep
+      de: Kadmiumgelb dunkel
+      nl: Cadmiumgeel donker
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PY35, PO20 ]
+  
+  '285':
+    hex: 'ED9826'
+    description:
+      en: Permanent yellow deep
+      de: Permanentgelb dunkel
+      nl: Permanentgeel donker
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PY74, PO43 ]
+  
+  '218':
+    hex: 'EB813E'
+    description:
+      en: Transparent orange
+      de: Transparentorange
+      nl: Transparantoranje
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PY128, PR209 ]
+  
+  '266':
+    hex: 'E55C27'
+    description:
+      en: Permanent orange
+      de: Permanentorange
+      nl: Permanentoranje
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PO73, PY74 ]
+  
+  '211':
+    hex: 'E5703C'
+    description:
+      en: Cadmium orange
+      de: Kadmiumorange
+      nl: Cadmiumoranje
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PO20 ]
+  
+  '311':
+    hex: 'AD2321'
+    description:
+      en: Vermilion
+      de: Zinnober
+      nl: Vermiljoen
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PO73 ]
+  
+  '303':
+    hex: 'D13127'
+    description:
+      en: Cadmium red light
+      de: Kadmiumrot hell
+      nl: Cadmiumrood licht
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PR108 ]
+  
+  '314':
+    hex: 'D54527'
+    description:
+      en: Cadmium red medium
+      de: Kadmiumrot mittel
+      nl: Cadmiumrood middel
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PR108 ]
+  
+  '315':
+    hex: 'C32825'
+    description:
+      en: Pyrrole red
+      de: Pyrrolerot
+      nl: Pyrrolerood
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PR254 ]
+  
+  '317':
+    hex: 'E2462E'
+    description:
+      en: Transparent red medium
+      de: Transparentrot mittel
+      nl: Transparantrood middel
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PR209 ]
+  
+  '306':
+    hex: '9F2127'
+    description:
+      en: Cadmium red deep
+      de: Kadmiumrot dunkel
+      nl: Cadmiumrood donker
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PR108 ]
+  
+  '345':
+    hex: 'A52225'
+    description:
+      en: Pyrrole red deep
+      de: Pyrrolerot dunkel
+      nl: Pyrolle rood donker
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PR254, PR264 ]
+  
+  '366':
+    hex: 'AA2439'
+    description:
+      en: Quinacridone rose
+      de: Chinacridonerosa
+      nl: Quinacridonerose
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PV19 ]
+  
+  '318':
+    hex: '9E2133'
+    description:
+      en: Carmine
+      de: Karmin
+      nl: Karmijn
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PR264 ]
+  
+  '336':
+    hex: '841C33'
+    description:
+      en: Permanent madder
+      de: Permanentkrapplack
+      nl: Permanentkraplak
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PR264, PV23 ]
+  
+  '322':
+    hex: '652228'
+    description:
+      en: Carmine deep
+      de: Karmin dunkel
+      nl: Karmijn donker
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PR264, PV23 ]
+  
+  '363':
+    hex: 'C72C63'
+    description:
+      en: Quina rose deep opaque
+      de: Chinarosa dunkel deckend
+      nl: Quinarose donker dekkend
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PV19, PW6 ]
+  
+  '346':
+    hex: 'D17BAF'
+    description:
+      en: Quina rose light opaque
+      de: Chinarosa hell deckend
+      nl: Quinarose licht dekkend
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PV19, PW6 ]
+  
+  '567':
+    hex: '741C56'
+    description:
+      en: Permanent red violet
+      de: Permanentrotviolett
+      nl: Permanentroodviolet
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PR122, PV23 ]
+  
+  '532':
+    hex: '9E549B'
+    description:
+      en: Mauve
+      de: Mauve
+      nl: Mauve
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PV19, PV23, PW6 ]
+  
+  '590':
+    hex: '8B2375'
+    description:
+      en: Permanent red violet opaque
+      de: Permanentrotviolett deckend
+      nl: Permanentroodviolet dekkend
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PV19, PV23, PW6 ]
+  
+  '589':
+    hex: '621F6A'
+    description:
+      en: Permanent violet opaque
+      de: Permanentviolett deckend
+      nl: Permanentviolet dekkend
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PV19, PV23, PW6 ]
+  
+  '581':
+    hex: '463881'
+    description:
+      en: Permanent blue violet opaque
+      de: Permanentblauviolett deckend
+      nl: Permanentblauwviolet dekkend
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PV23, PV19, PW6 ]
+  
+  '568':
+    hex: '4A1A7C'
+    description:
+      en: Permanent blue violet
+      de: Permanentblauviolett
+      nl: Permanentblauwviolet
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PV23, PR122 ]
+  
+  '504':
+    hex: '29328C'
+    description:
+      en: Ultramarine
+      de: Ultramarin
+      nl: Ultramarijn
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PB29 ]
+  
+  '518':
+    hex: '262A74'
+    description:
+      en: Cobalt blue deep (ultramarine)
+      de: Kobaltblau dunkel (ultramarin)
+      nl: Kobaltblauw donker (ultramarijn)
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PB29, PB15 ]
+  
+  '516':
+    hex: '4473BC'
+    description:
+      en: Cobalt blue light (ultramarine)
+      de: Kobaltblau hell (ultramarin)
+      nl: Kobaltblauw licht (ultramarijn)
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PB29, PW6 ]
+  
+  '533':
+    hex: '1C2E4F'
+    description:
+      en: Indigo
+      de: Indigo
+      nl: Indigo
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PB29, PBk7 ]
+  
+  '511':
+    hex: '18378F'
+    description:
+      en: Cobalt blue
+      de: Kobaltblau
+      nl: Kobaltblauw
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PB28 ]
+  
+  '517':
+    hex: '2E8CD4'
+    description:
+      en: King's blue
+      de: Königblau
+      nl: Koningsblauw
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PB29, PB15, PW6 ]
+  
+  '570':
+    hex: '1D3B83'
+    description:
+      en: Phthalo blue
+      de: Phthaloblau
+      nl: Phtaloblauw
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PB15 ]
+  
+  '521':
+    hex: '123346'
+    description:
+      en: Indanthrone blue phthalo
+      de: Indanthrenblau (phthalo)
+      nl: Indantreenblauw (phtalo)
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PB15, PB29, PW6 ]
+  
+  '566':
+    hex: '0E2B43'
+    description:
+      en: Prussian blue (phthalo)
+      de: Preußischblau (phthalo)
+      nl: Pruisischblauw (phtalo)
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PB15, PBk11 ]
+  
+  '530':
+    hex: '338FB3'
+    description:
+      en: Sèvres blue
+      de: Sèvresblau
+      nl: Sèvresblauw
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PB15, PG7, PW6 ]
+  
+  '527':
+    hex: '65BFF0'
+    description:
+      en: Sky blue
+      de: Himmelblau
+      nl: Hemelsblauw
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PW6, PB15 ]
+  
+  '522':
+    hex: '308093'
+    description:
+      en: Turquoise blue
+      de: Türkisblau
+      nl: Turkooisblauw
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PB15, PG7, PW6 ]
+  
+  '565':
+    hex: '235B5D'
+    description:
+      en: Phthalo turquoise blue
+      de: Phthalotürkisblau
+      nl: Phtaloturkooisblauw
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PB15, PG7 ]
+  
+  '661':
+    hex: '40A392'
+    description:
+      en: Turquoise green
+      de: Türkisgrün
+      nl: Turkooisgroen
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PG7, PB15, PW6 ]
+  
+  '619':
+    hex: '29643C'
+    description:
+      en: Permanent green deep
+      de: Permanentgrün dunkel
+      nl: Permanentgroen donker
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PG7, PY74 ]
+  
+  '618':
+    hex: '3C8E3D'
+    description:
+      en: Permanent green light
+      de: Permanentgrün hell
+      nl: Permanentgroen licht
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PG7, PY74 ]
+  
+  '617':
+    hex: '7AAC34'
+    description:
+      en: Yellow green
+      de: Gelbgrün
+      nl: Geelgroen
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PG7, PY74 ]
+  
+  '219':
+    hex: 'C3DF4E'
+    description:
+      en: Green yellow light
+      de: Grüngelb hell
+      nl: Groengeel licht
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PY184, PW6 ]
+  
+  '620':
+    hex: '395533'
+    description:
+      en: Olive green
+      de: Olivgrün
+      nl: Olijfgroen
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PG7, PR101 ]
+  
+  '668':
+    hex: '4A6742'
+    description:
+      en: Chromium oxide green
+      de: Chromoxidgrün
+      nl: Chroomoxydgroen
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PG17 ]
+  
+  '623':
+    hex: '2A4532'
+    description:
+      en: Sap green
+      de: Saftgrün
+      nl: Sapgroen
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PG7, PY42, PR101 ]
+  
+  '339':
+    hex: '7D232C'
+    description:
+      en: Light oxide red
+      de: Englischrot
+      nl: Engelsrood
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PR101 ]
+  
+  '411':
+    hex: '882D27'
+    description:
+      en: Burnt sienna
+      de: Siena gebrannt
+      nl: Sienna gebrand
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PR101 ]
+  
+  '227':
+    hex: 'A25E2C'
+    description:
+      en: Yellow ochre
+      de: Gelber Ocker
+      nl: Gele oker
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PY42 ]
+  
+  '234':
+    hex: '6E4B29'
+    description:
+      en: Raw sienna
+      de: Siena natur
+      nl: Sienna naturel
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PY42 ]
+  
+  '265':
+    hex: 'A55E26'
+    description:
+      en: Transparent oxide yellow
+      de: Transparentoxidgelb
+      nl: Transparantoxydgeel
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PY42 ]
+  
+  '426':
+    hex: '493434'
+    description:
+      en: Transparent oxide brown
+      de: Transparent oxidbraun
+      nl: Transparantoxydbruin
+    lightfastness: +++
+    opacity: transparent
+    pigments: [ PR101, PG7 ]
+  
+  '408':
+    hex: '393435'
+    description:
+      en: Raw umber
+      de: Umbra natur
+      nl: Omber naturel
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PY42, PBk11 ]
+  
+  '409':
+    hex: '493530'
+    description:
+      en: Burnt umber
+      de: Umbra gebrannt
+      nl: Omber gebrand
+    lightfastness: +++
+    opacity: semi-transparent
+    pigments: [ PR101, PBk11 ]
+  
+  '403':
+    hex: '322E36'
+    description:
+      en: Vandyke brown
+      de: Vandijckbraun
+      nl: Van Dijckbruin
+    lightfastness: +++
+    opacity: semi-opaque
+    pigments: [ PBk11, PR101 ]
+  
+  '708':
+    hex: '281F24'
+    description:
+      en: Payne grey
+      de: Paynegrau
+      nl: Paynesgrijs
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PB29, PBk7, PV19, PW6 ]
+  
+  '735':
+    hex: '212A25'
+    description:
+      en: Oxide black
+      de: Oxidschwarz
+      nl: Oxydzwart
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PBk11 ]
+  
+  '701':
+    hex: '212A25'
+    description:
+      en: Ivory black
+      de: Elfenbeinschwarz
+      nl: Ivoorzwart
+    lightfastness: +++
+    opacity: opaque
+    pigments: [ PBk9 ]
