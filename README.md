@@ -1,9 +1,8 @@
-
-#Amsterdam Expert Series acrylic paints
+# Amsterdam Expert Series acrylic paints
 
 _Amsterdam Expert_ is a series of acrylic paints for artists, produced by Royal Talens.
 
-##Data
+## Data
 
 This dataset lists the individual paint colors in the series. For each color a number of properties are given:
 
@@ -17,17 +16,17 @@ RGB colors produced by computers are only an approximation of the effect of ligh
 
 This dataset is available in YAML format, encoded in UTF-8.
 
-##Resources
+## Resources
 
 * [Acrylic paint](https://en.wikipedia.org/wiki/Acrylic_paint)
 * [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model)
 * [Royal Talens](https://en.wikipedia.org/wiki/Royal_Talens)
 
-##Notice
+## Notice
 
 This dataset was compiled from information publicly available, such as color charts and labels on paint tubes. It has no official status, and Royal Talens was not involved in any way in compiling and publishing this dataset. 
 
-##License
+## License
 
 Data is provided “as is”, without warranties of any kind.
 
